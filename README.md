@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @jacobfalk
+- 👀 I’m interested in C/C++,
+- 🌱 I’m currently learning HTML/CSS, JS
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me marianjacobfalk@gmail.com
+- 😄 Pronouns: /ˈdʒeɪkəb fɔːk/
+- ⚡ Fun fact: 
