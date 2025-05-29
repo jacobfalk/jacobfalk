@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Životopis Jacob Marian Falk</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .header {
+            padding: 40px;
+            text-align: center; 
+            background: #3f3f3f;
+            color: rgb(234, 234, 234);
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #7a7a7a;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #8e8e8e;
+            color: #707070;
+        }
+
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .side {
+            flex: 5%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .main {
+            flex: 70%;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+         {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background: #ddd;
+        }
+
+
+        @media screen and (max-width: 700px) {
+            .row, .navbar {
+                flex-direction: column;
+            }
+        }
+
+        .header {
+            position: relative;
+            background-image: url("https://i.ibb.co/Z69xPXnV/blue.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .header h1 {
+            position: relative;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div class="header">
+    <h1>Jacob Marian Falk</h1>
+</div>
+
+
+<div class="navbar">
+    <a href="#sekcia1" target="_self">Pracovné skúsenosti</a>
+    <a href="#sekcia2" target="_self">Vzdelanie</a>
+    <a href="#sekcia3" target="_self">Kontakt</a>
+</div>
+
+
+<div class="row">
+    <div class="side">
+        <img src="fotka/image.png" alt="Moja Fotka" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; border: 5px;">
+        <h2 id="sekcia4">O mne</h2>
+        <p>Som zodpovedný a dochviľny človek s myslením zameraným na detail.
+            Som pracovitý a flexibilný, vždy pripravený prispôsobiť sa novým výzvam.</p>
+        <br>
+        <h3>Znalosti</h3>
+        <p>Microsoft Word - Pokročilý</p>
+        <p>Microsoft Excel - Pokročilý</p>
+        <p>Microsoft Powerpoint - Pokročilý</p>
+        <p>KROS Alfa + - Mierne pokročilý</p>
+        <p>KROS Omega - Mierne pokročilý</p>
+        <br>
+        <h3>Jazyky</h3>
+        <p>Nemecký jazyk - C1</p>
+        <p>Anglický jazyk - B2</p>
+
+    </div>
+    <div class="main">
+        <h2 id="sekcia1">Pracovné skúsenosti</h2>
+        <h3>Obchodný zástupca</h3>
+        <h4>teplozima.sk - Bratislava, Slovenská
+            republika</h4>
+        <h6>APR 2024 - OKT 2024</h6>
+        <p>Predaj a poradenstvo v oblasti klimatizácií a fotovoltických systémov, ako aj získavanie nových zákazníkov a obchodných partnerov.</p>
+        <br>
+        <h3>Sales Representative</h3>
+        <h4>Stradinger g. m. b. h. - Krems, Rakúsko</h4>
+        <h6>MAR 2023 - MAR 2024</h6>
+        <p>Predaj fotovoltických systémov od prvého kontaktu so zákazníkom až po predaj, vrátane poradenstva, získavania nových obchodných partnerov a príležitostnej podpory pri montáži.</p>
+        <br>
+        <h3>Tlmočník</h3>
+        <h4>Jazyková agentúra ELBA s.r.o. - Skalica,
+            Slovenská republika</h4>
+        <h6>SEP 2022 - MAR 2023</h6>
+        <p>Ako tlmočník pre firmu Schaeffler v Nemecku som zabezpečoval profesionálne tlmočenie pracovných postupov a prevádzkovania strojov a zariadení. Moja práca zahŕňala taktiež tlmočenie počas rôznych školení a kurzov.</p>
+        <br>
+        <br>
+        <br>
+        <h2 id="sekcia2">Vzdelanie</h2>
+        <h3>Stredná odborná škola Jozefa Čabelku</h3>
+        <h4>Ekonomika a pôdohospodárstvo
+            Holíč, Slovenská republika</h4>
+        <h6>SEP 2018 - JÚN 2022</h6>
+        <br>
+        <h3>Paneurópska Vysoká škola Tematínska 10 Bratislava, Slovenská republika</h3>
+        <h4>Fakulta informatiky Tematínska</h4>
+        <h6>SEP 2018 - DOTERAZ</h6>
+    </div>
+</div>
+
+
+<div class="footer">
+    <h3 id="sekcia3">Kontakt</h3>
+    <a href="mailto:marianjacobfalk@gmail.com">marianjacobfak@gmail.com</a>
+    <br>
+    <a href="tel:+421949599080">+421 949 599 080</a>
+    <a href="#sekcia4"><p> 0 mne</p>
+    </a>
+    <h3>Sledujte ma</h3>
+    <a href="https://www.instagram.com/jacob.m.falk/?next=%2F">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="instagram logo" style="width:42px;height:42px;"></a>
+    <a href = "https://www.facebook.com/jacob.m.falk">
+        <img src="https://images.seeklogo.com/logo-png/29/2/facebook-icon-logo-png_seeklogo-290339.png" alt="facebook logo" style="width:44px;height:44px;">
+    </a>
+    <a href="https://github.com/jacobfalk">
+        <img src="https://img.icons8.com/ios_filled/512/github.png" alt="github logo" style="width:45px;height:45px;">
+    </a>
+
+
+</div>
+
+</body>
+</html>
